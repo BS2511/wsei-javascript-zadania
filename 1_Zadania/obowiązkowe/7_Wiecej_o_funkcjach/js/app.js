@@ -5,28 +5,28 @@
  */
 
 
-//Twoj komentarz ...
+//Utworzenie funkcji jeden()
 function jeden() {
 
-    //Twoj komentarz ...
+    //Inicjacja zmiennej zmienna1 i przypisanie jej wartości 1 (wczyta się po funkcji jeden)
     var zmienna1 = 1;
 
-    //Twoj komentarz ...
+    //Utworzenie funkcji dwa()
     function dwa() {
 
-        //Twoj komentarz ...
+        //Wypisanie w konsoli wartości zmienna1
         console.log(zmienna1);
 
-        //Twoj komentarz ...
+        //Inicjacja zmiennej zmienna2 i przypisanie jej wartości 3
         var zmienna2 = 3;
     }
 
-    //Twoj komentarz ...
+    //Wywołanie funkcji dwa
     dwa();
 
-    //Twoj komentarz ...
+    //wyrzuca zmienna2 is not defined ponieważ zmienna2 jest zainacjowana w fucnkji dwa(), a nie jest zmienna globalną - funkcja jeden() nie wiem czym jest zmienna2
     console.log(zmienna2)
 }
 
-//Twoj komentarz ...
+//Wywołanie funkcji jeden()
 jeden()

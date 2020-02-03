@@ -31,3 +31,11 @@ var animals = [
     }
 
 ]
+
+// Task 5
+
+for(var i = 0; i < animals.length; i++){
+    for(x in animals){
+        console.log(animals[i].x);
+    }
+}
